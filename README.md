@@ -36,4 +36,17 @@ Contem dados da jogada do jogador 1 e 2 e as peças que estão na mesa
 Enum TipoJogada
 Contem os tipos de jogadas possíveis
 
+Inicialmente serão distribuidas randomicamente 12 peças para cada jogador que serão armazenados em sua mão (lista duplamente encadeada). A cada jogada caso a joga seja válida e não seja passar a vez uma peça sera removida da mão do jogador (lista duplamente encadeada) e adicionada a mesa (lista duplamente encadeada).
+
+Caso o número da peça encaixa com a estremidade a direita da mesa a peça será adicionada no final da mesa (lista encadeada). Caso o número da peça encaixa com a estremidade a esquerda da mesa a peça será adicionada no inicio da mesa (lista encadeada). 
+
+Os números das peças poderão ser invertidos de lado para se encaixar as extremidades da mesa.
+
+Para cada peça do humano será validado se o mesmo tem a peça que foi lida no teclado, se a peça realmente encaixa na posição escolhida, se a posição da jogada é válida, se a peça joga tem os que representam corretamente uma peça de dominó.
+
+Enquanto o jogo não estiver finalizado uma nova rodada será iniciada. Um jogo poderá ser finalizado caso um dos jogadores não tenha mais peças na mão ou caso ou 2 jogares passem a vez durante a mesma rodada.
+
+
+
+
 
