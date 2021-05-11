@@ -1,6 +1,6 @@
 public class EstrategiaJogo {
 
-    public Jogada decideJogada(ListaDuplamenteEncadeada mao, Mesa mesa) {
+    public Jogada decidirJogada(ListaDuplamenteEncadeada mao, Mesa mesa) {
         if (mesa.getNumPecas() == 0) {
             return new Jogada(mao.buscarPorPosicao(0).getPeca(), TipoJogada.NA_DIREITA);
         }

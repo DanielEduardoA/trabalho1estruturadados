@@ -17,7 +17,7 @@ public class HistoricoRodadas {
         this.vencedor = null;
     }
 
-    public void addRodada(Jogada ultimaJogadaJ1, Jogada ultimaJogadaJ2, Mesa mesa) {
+    public void adicionarRodada(Jogada ultimaJogadaJ1, Jogada ultimaJogadaJ2, Mesa mesa) {
         Rodada novaRodada = new Rodada(jogador1, ultimaJogadaJ1, jogador2, ultimaJogadaJ2,
                 mesa.getPecas());
         this.rodadas.add(novaRodada);

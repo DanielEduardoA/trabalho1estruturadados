@@ -8,7 +8,7 @@ public class ListaDuplamenteEncadeada {
         quantidade = 0;
     }
 
-    public void addInicio(Peca peca) {
+    public void adicionarInicio(Peca peca) {
         No no = new No(null, primeiro, peca);
         if (primeiro == null)
             primeiro = ultimo = no;
@@ -19,7 +19,7 @@ public class ListaDuplamenteEncadeada {
         quantidade++;
     }
 
-    public void addFim(Peca peca) {
+    public void adicionarFim(Peca peca) {
         No no = new No(primeiro, null, peca);
         if (primeiro == null)
             primeiro = ultimo = no;
@@ -96,7 +96,7 @@ public class ListaDuplamenteEncadeada {
         return -1;
     }
 
-    public void removeLista(Peca peca) {
+    public void removerLista(Peca peca) {
         No temp = primeiro;
         No anterior = null;
 

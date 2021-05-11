@@ -10,6 +10,10 @@ public class Peca {
         this.numDireito = numDireito;
     }
 
+    public boolean encaixa(int numero) {
+        return this.numDireito == numero || this.numEsquerdo == numero;
+    }
+
     public void setNumEsquerdo(int numEsquerdo) {
         this.numEsquerdo = numEsquerdo;
     }
@@ -54,10 +58,6 @@ public class Peca {
         if (numEsquerdo != other.numEsquerdo)
             return false;
         return true;
-    }
-
-    public boolean encaixa(int numero) {
-        return this.numDireito == numero || this.numEsquerdo == numero;
     }
 
 }

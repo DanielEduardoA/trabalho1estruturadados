@@ -29,7 +29,7 @@ public class Jogador {
         return nome;
     }
 
-    public Jogada decideJogadaHumano(Mesa mesa) {
+    public Jogada decidirJogadaHumano(Mesa mesa) {
         Jogada jogada = null;
         TipoJogada tipoJogada = lerTipoJogada();
         if (!tipoJogada.equals(TipoJogada.PASSA)) {
@@ -41,8 +41,8 @@ public class Jogador {
         return jogada;
     }
 
-    public Jogada decideJogadaMaquina(Mesa mesa) {
-        Jogada jogada = estrategia.decideJogada(mao, mesa);
+    public Jogada decidirJogadaMaquina(Mesa mesa) {
+        Jogada jogada = estrategia.decidirJogada(mao, mesa);
         if (!jogada.getTipo().equals(TipoJogada.PASSA)) {
             Peca pecaJogada = jogada.getPeca();
             if (!mao.contem(pecaJogada)) {
@@ -55,7 +55,7 @@ public class Jogador {
     }
 
     public void removeDaMao(Peca peca) {
-        this.mao.removeLista(peca);
+        this.mao.removerLista(peca);
     }
 
     @SuppressWarnings("resource")

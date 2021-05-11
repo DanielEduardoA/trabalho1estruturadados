@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        Jogo j = new Jogo("J1", "J2",
+        Jogo jogo = new Jogo("J1", "J2",
                 12);
 
-        HistoricoRodadas historico = j.jogaJogoCompleto();
+        HistoricoRodadas historico = jogo.jogar();
         System.out.println(historico.getResultado());
 
     }
