@@ -1,8 +1,7 @@
 # trabalho1estruturadados
 
 Trabalho apresentado para a disciplina Estrutura de dados pelos alunos:
-Daniel Eduardo Costa de Almeida
-Ângelo Gabriel Lopes
+Daniel Eduardo Costa de Almeida e Ângelo Gabriel Lopes
 
 A classe EstrategiaJogo
 Contem a implementação para verificar se uma peça encaixa em uma das extremidades da mesa e para decidir a primeira jogada da máquina possível de acordo com sua mão
