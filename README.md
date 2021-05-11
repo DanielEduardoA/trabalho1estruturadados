@@ -42,7 +42,7 @@ Caso o número da peça encaixa com a estremidade a direita da mesa a peça ser�
 
 Os números das peças poderão ser invertidos de lado para se encaixar as extremidades da mesa.
 
-Para cada peça do humano será validado se o mesmo tem a peça que foi lida no teclado, se a peça realmente encaixa na posição escolhida, se a posição da jogada é válida, se a peça joga tem os que representam corretamente uma peça de dominó.
+Para cada peça do humano será validado se o mesmo tem a peça que foi lida no teclado, se a peça realmente encaixa na posição escolhida, se a posição da jogada é válida, se a peça jogada tem os que representam corretamente uma peça de dominó caso alguma destas validações falhe uma mensagem de erro será mostrada para o jogador e a jogada será considerada inválida.
 
 Enquanto o jogo não estiver finalizado uma nova rodada será iniciada. Um jogo poderá ser finalizado caso um dos jogadores não tenha mais peças na mão ou caso ou 2 jogares passem a vez durante a mesma rodada.
 
